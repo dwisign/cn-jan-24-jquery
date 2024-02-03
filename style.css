@@ -1,0 +1,17 @@
+.hide{
+    display: none;
+}
+
+.alertName,.alertEmail{
+    color: red;
+}
+
+.active{
+    display: none;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background: red;
+}
