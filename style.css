@@ -15,3 +15,70 @@
     height: 200px;
     background: red;
 }
+
+/*PRODUCT TABS*/
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+    .product-wrap{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        .product-image{
+            width: 70%;
+            .product-item{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+
+        .product-colors{
+            display: flex;
+            gap: 15px;
+
+            .btn-color{
+                width: 50px;
+                height: 50px;
+                background: #dedede;
+                display: flex;
+                border-radius: 50px;
+                font-size: 0px;
+                cursor: pointer;
+                border: 1px solid #dedede;
+            }
+
+            .glam-black{
+                background: black;
+            }
+
+            .glossy-beige{
+                background: bisque;
+            }
+
+            .glossy-black{
+                background: burlywood;
+            }
+
+            .glossy-green{
+                background: green;
+            }
+
+            .glossy-red{
+                background: red;
+            }
+
+            .matte-white{
+                background: whitesmoke;
+            }
+        }
+    }
+}
+
+
